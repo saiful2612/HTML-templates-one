@@ -4,10 +4,249 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <header>
-        <h1>Riyaz</h1>
+    <header class="header-row">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="logo" > <img src="images/logo-dark.png" alt=""></div>
+                <div class="collapse navbar-collapse">
+                    <ul class=" navbar-nav ms-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-toggle" href="#feature" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Feature
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </nav>
+
+        <div class="header-part">
+            <h1>Our Design</h1>
+            <h1>Your Business.</h1> 
+            <br>
+            <p>Best Wallet App for your upcoming Projects</p>
+            <br>
+            <br>
+        </div>
+
+        <div class="header-footer" >
+            <a id="first-link" class="text-dark bg-white" href=""> <i><img src="images/download.png" alt=""></i> Get it on the App store</a>
+            <a id="second-link" class="text-dark bg-white" href=""> <i><img src="images/download (1).png" alt=""></i> Get it on Play store</a>
+        </div>
+
+        <!-- <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand mx-auto" href="#">Navbar</a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Feature
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="">Disabled</a>
+                        </li>
+                    </ul>
+                </div>    
+            </div>
+        </nav> -->
+
+        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+            </div>
+          </nav> -->
     </header>
+
+    <div class="footer-row">
+        <h2>This row is fixed for some big fish </h2>
+    </div>
+
+    <div id="content">
+        <div class="content-wrap">
+            <div class="container">
+                <div class="heading-block center mt-4 bottom-margin mx-auto" style="max-width:740px;">
+                    <h5 class="text-muted ls1 mb-3 text-uppercase">why you choose us?</h5>
+                    <h2 class="content-heading">Powerful & Best Features for Canvas App</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, laboriosam        exercitationem officia amet minima necessitatibus. Maiores hic aliquam, debitis quisquam autem, sit non rerum temporibus nobis illo, aperiam libero expedita.
+                    </p>
+                </div>
+
+                <div class="feature-item row justify-content-around">
+                    <div id="first-block" class="col-md-5 bottommargin-lg">
+                        <div class="media-boxa feature-box">
+                            <div class="fbox-icon">
+                                <p>LOGO1</p>
+                            </div>
+                            <div class="fbox-content">
+                                <h2>Any where & any time</h2>
+                                <div class="inner-box">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut consequuntur, veniam quas sunt vero fugit earum in ipsa id accusantium.
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="media-boxb feature-box">
+                            <div class="fbox-icon">
+                                <p>LOGO2</p>
+                            </div>
+                            <div class="fbox-content">
+                                <h2>International Transaction</h2>
+                                <div class="inner-box">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut consequuntur, veniam quas sunt vero fugit earum in ipsa id accusantium.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="first-block" class="col-md-5 bottommargin-lg">
+                        <div class="media-boxa feature-box">
+                            <div class="fbox-icon">
+                                <p>LOGO3</p>
+                            </div>
+                            <div class="fbox-content">
+                                <h2>100% secured & Trustable</h2>
+                                <div class="inner-box">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut consequuntur, veniam quas sunt vero fugit earum in ipsa id accusantium.
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="media-boxb feature-box">
+                            <div class="fbox-icon">
+                                <p>LOGO4</p>
+                            </div>
+                            <div class="fbox-content">
+                                <h2>Detailed Documentation</h2>
+                                <div class="inner-box">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut consequuntur, veniam quas sunt vero fugit earum in ipsa id accusantium.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="second-block">
+                <div class="col-md-6 bg-color dark">
+                    <div class="section-features">
+                        <h2 class="head1">Instrinsicly synergistic benifits</h2>
+                        <p class="para2 p-border">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat et aliquam quod laboriosam odio debitis ratione odit perspiciatis iure sint itaque consequatur quis quas distinctio quae commodi.
+                        </p>
+                        <h2 class="head2">Appropripately Target Customers</h2>
+                        <p class="para2">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo quod voluptatem qui repellat aliquid itaque sunt esse voluptas libero maxime?
+                        </p>
+                        <p class="para2 p-border">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, voluptatum!
+                        </p>
+                        <h2 class="head3">Completely Expolit Focused</h2>
+                        <p class="para2 p-border2">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita doloremque culpa sunt repudiandae quidem saepe amet cupiditate eaque nemo ipsa.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="side">
+                        <img src="images/1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="section" id="third-block">
+                <div class="col-md-6">
+                    <div class="slide">
+                        <img src="images/2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="state">
+                        <p>LOGO5</p>
+                        <h3>Version 6 is now 2x faster</h3>
+                    </div>
+                    <p class="par">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto repellendus recusandae iusto veritatis impedit quae placeat ipsa doloremque? Unde, porro!
+                    </p>
+
+                    <ul class="skills">
+                        <li data-percent="60">
+                            <span>Version 6.0</span>
+                            <div class="progress skills-animated" style="width:60%;">
+                                <div class="progress-percent">
+                                    <div class="counter counter-inherit counter-instant">
+                                        <span data-from="0" data-t0="60" data-refresh-interval="30" data-speed="1500" >60</span>% optimized
+                                    </div>
+                                </div>
+
+                            </div>
+                            
+                        </li>
+                    </ul>
+                    <a class="btn" href="">
+                        Learn more
+                        <i class="icon-line-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+               
+        </div>
+    </div>
+
+
 </body>
 </html>
