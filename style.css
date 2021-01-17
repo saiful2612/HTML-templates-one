@@ -309,6 +309,10 @@ h2{
     justify-content: center;
 }
 
+.section{
+    background-color: transparent !important;
+}
+
 #third-block{
     display: flex;
     justify-content: center;
@@ -423,4 +427,138 @@ a{
     font-variant: normal;
     text-transform: none;
     line-height: inherit;
+}
+
+.container-box{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+}
+.partition-block{
+    margin-right: 0 !important;
+    margin-left: 27% !important;
+    text-align: center;
+    float: none !important;
+}
+
+#part{
+    font-size: .875rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem !important;
+    color: #9BB0BF !important;
+    letter-spacing: 1px !important;
+    line-height: 1.5;
+    margin: 0 0 30px 0;
+}
+
+#p-h2{
+    font-family: 'Roboto', sans-serif !important;
+    margin-bottom: 1rem !important;
+    text-transform: none !important;
+    font-size: 52px;
+    line-height: 1.3;
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+
+#p-p{
+    font-size: 1rem;
+    font-weight: 400 !important;
+    color: rgba(0, 0, 0, 0.5) !important;
+    line-height: 1.8;
+}
+
+.item{
+    position: relative;
+    margin: 1%;
+
+}
+.photo{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.item img{
+    width: 100%;
+}
+
+#fourth-block{
+    display: flex;
+    justify-content: center;
+}
+
+.contain{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    position: relative;
+}
+
+.rowElement {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.firstPortion{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #EEE;
+}
+
+.nott{
+    line-height: 1.3;
+    font-weight: 900;
+    letter-spacing: -1px;
+    text-transform: none !important;
+}
+
+.box{
+    font-size: 1.25rem;
+    font-weight: 400 !important;
+}
+.para{
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.5) !important;
+    margin-top: 3rem !important;
+    margin-bottom: 30px;
+
+}
+
+#fifth-block{
+    display: flex;
+    justify-content: center;
+}
+
+.col-lg-5{
+    width: 40%;
+    position: relative;
+    padding-right: 50px;
+}
+
+.col-lg-7{
+    position: relative;
+    padding-left: 100px;
+}
+
+.card-shadow{
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5%;
 }
