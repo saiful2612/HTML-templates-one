@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="nameAPI"></h1>
+    <button id="press">Click me</button>
+
+    <script>
+    
+        const buttonClick =document.getElementById('press');      // press the button
+        buttonClick.addEventListener('click', activity)           // activity of button
+
+        function activity(){                             
+            fetch('https://randomuser.me/api/')
+                .then(res => res.json())
+                .then( data =>{
+                const userName= data.results[0].name;    // takeout name from the results array
+                const desiredName = `${userName.title} ${userName.first} ${userName.last}`;  //Assembeled the name
+                document.getElementById('nameAPI').innerText= desiredName;               // Show the name on UI
+            })
+        }
+
+    </script>
+</body>
+</html>
