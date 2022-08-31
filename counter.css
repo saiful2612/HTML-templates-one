@@ -17,3 +17,14 @@
     border-radius:5px;
     padding:2px;
 }
+
+
+.button-control{
+    width: 50%;
+
+    margin: 10px;
+    border: 1px solid red;
+    border-radius:5px;
+    padding:10px;
+    
+}
