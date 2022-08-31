@@ -6,13 +6,17 @@ const subtractButton = document.getElementById("subtraction");
 
 // Button handlers
 addButton.addEventListener('click', () => {
-    const value = parseInt(screen.innerText) + 1;
+    const inputValue = document.getElementById("quantity");
+    const number = parseInt(inputValue.value);
+    const value = parseInt(screen.innerText) + number;
     screen.innerText = value;
 })
 
 
 subtractButton.addEventListener('click', () => {
-    const value = parseInt(screen.innerText) - 1;
+    const inputValue = document.getElementById("quantity");
+    const number = parseInt(inputValue.value);
+    const value = parseInt(screen.innerText) - number;
     screen.innerText = value;
 })
 
