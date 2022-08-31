@@ -1,0 +1,19 @@
+.counter{
+    width:200px;
+    background:cyan;
+    padding:20px;
+}
+
+#addition{
+    background:green;
+    color:white;
+    border-radius:5px;
+    padding:2px;
+}
+
+#subtraction{
+    background:red;
+    color:white;
+    border-radius:5px;
+    padding:2px;
+}

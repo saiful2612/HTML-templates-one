@@ -1,0 +1,21 @@
+h1{
+    color:red;
+    /* background-color:green; */
+    /* background-image: url('ornament.jpg'); */
+}
+
+p{
+    color:green;
+    background:red;
+}
+
+.header{
+    height:200px;
+    border:1px solid red;
+    /* background-image:url('ornament.jpg'); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-attachment: scroll; */
+    /* background-size:cover; */
+    /* background-size: 100% 100%; */
+}
